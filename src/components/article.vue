@@ -45,10 +45,10 @@ export default{
 }
 
 .border{
-  width:80%;
+  width:98%;
   height:80%;
   margin: 0 auto;
-
+  border: 1px solid black; 
 
 }
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="articles">
+    <div class="border">
        <div class="search">
         <span> Поиск по словам, встречающихся в статье: </span>
         <input type="text" v-model="articleSearch"/>
@@ -70,5 +70,10 @@
   width:250px;
   font-size:22px;
 }
-
+.border{
+  width:98%;
+  height:80%;
+  margin: 0 auto;
+  border: 1px solid black; 
+}
 </style>
